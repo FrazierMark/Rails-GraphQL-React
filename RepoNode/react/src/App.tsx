@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { useQuery, gql } from '@apollo/client'
 import { GET_REPOS } from './queries/queries'
