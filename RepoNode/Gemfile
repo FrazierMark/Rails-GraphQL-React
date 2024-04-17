@@ -49,3 +49,5 @@ end
 gem "graphql", "~> 2.3"
 gem 'graphiql-rails', '~> 1.10'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem "bcrypt", "~> 3.1.7"
+gem "jwt"

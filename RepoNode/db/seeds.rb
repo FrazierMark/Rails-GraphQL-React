@@ -12,3 +12,11 @@ Repo.create!(
   name: "Learn Rails Depot",
   url: "https://github.com/FrazierMark/Learn_Rails_Depot",
 )
+
+User.create!(
+  username: "test_user",
+  password: 'password',
+  first_name: 'Test',
+  last_name: 'User',
+  admin: false,
+)
